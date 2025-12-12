@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  h1 Uredi projekt
+  form(action=`/projects/${project._id}?_method=PUT`, method="POST")
+    .mb-3
+      label.form-label Naziv
+      input.form-control(type="text", name="name", value=project.name)
+
+    .mb-3
+      label.form-label Opis
+      textarea.form-control(name="description")= project.description
+
+    .mb-3
+      label.form-label Cijena
+      input.form-control(type="number", step="0.01", name="price", value=project.price)
+
+    .mb-3
+      label.form-label Poslovi
+      textarea.form-control(name="tasks")= project.tasks
+
+    .mb-3
+      label.form-label Datum početka
+      input.form-control(type="date", name="startDate", value=(project.startDate.toISOString().split('T')[0]))
+
+    .mb-3
+      label.form-label Datum završetka
+      input.form-control(type="date", name="endDate", value=(project.endDate.toISOString().split('T')[0]))
+
+    button.btn.btn-primary(type="submit") Spremi promjene

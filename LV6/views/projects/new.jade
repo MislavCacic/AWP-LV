@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  h1 Novi projekt
+  form(action="/projects", method="POST")
+    .mb-3
+      label.form-label Naziv Projekta
+      input.form-control(type="text", name="name", required)
+
+    .mb-3
+      label.form-label Opis Projekta
+      textarea.form-control(name="description", rows="3")
+
+    .mb-3
+      label.form-label Cijena
+      input.form-control(type="number", step="0.01", name="price")
+
+    .mb-3
+      label.form-label Poslovi
+      textarea.form-control(name="tasks")
+
+    .mb-3
+      label.form-label Datum početka
+      input.form-control(type="date", name="startDate")
+
+    .mb-3
+      label.form-label Datum završetka
+      input.form-control(type="date", name="endDate")
+
+    button.btn.btn-success(type="submit") Spremi Promjene

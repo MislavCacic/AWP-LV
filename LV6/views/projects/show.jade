@@ -1,0 +1,49 @@
+extends layout
+
+block content
+  h1= project.name
+  p
+    strong Opis Projekta: 
+    | #{project.description}
+  p
+    strong Cijena Projekta: 
+    | #{project.price}
+  p
+    strong Obavljeni poslovi: 
+    ul
+      each task in project.tasks
+        li= task
+  p
+    strong Datum početka: 
+    | #{project.startDate}
+  p
+    strong Datum završetka: 
+    | #{project.endDate}
+
+  h2 Članovi tima
+  if members.length
+    ul.list-group.mb-3
+      each m in members
+        li.list-group-item #{m.ime} #{m.prezime} – #{m.uloga}
+  else
+    p.text-muted Nema članova tima
+
+  hr
+
+  h3 Dodaj novog člana
+  form(action="/projects/" + project._id + "/members", method="POST")
+    .mb-2
+      label.form-label(for="ime") Ime
+      input.form-control(type="text", name="ime", required)
+    .mb-2
+      label.form-label(for="prezime") Prezime
+      input.form-control(type="text", name="prezime", required)
+    .mb-2
+      label.form-label(for="uloga") Uloga
+      input.form-control(type="text", name="uloga", required)
+    button.btn.btn-primary.mt-2(type="submit") Dodaj člana
+
+  a.btn.btn-warning.me-2(href="/projects/" + project._id + "/edit") Uredi Projekt
+  form(action="/projects/" + project._id + "?_method=DELETE", method="POST", style="display:inline")
+    button.btn.btn-danger(type="submit") Obriši 
+  a.btn.btn-secondary.ms-2(href="/projects") Natrag
