@@ -1,0 +1,200 @@
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('1', 'Diane', 'Gilbert', 'dgilbert0@cbsnews.com', 'Female', 'https://robohash.org/numquamrepudiandaequia.png?size=50x50&set=set1', 'et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('2', 'Ronald', 'Simpson', 'rsimpson1@vkontakte.ru', 'Male', 'https://robohash.org/aspernaturetnesciunt.png?size=50x50&set=set1', 'eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('3', 'Judy', 'Sanchez', 'jsanchez2@ehow.com', 'Female', 'https://robohash.org/expeditaquisquampossimus.jpg?size=50x50&set=set1', 'natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('4', 'Alan', 'Tucker', 'atucker3@wikia.com', 'Male', 'https://robohash.org/sintinciduntaut.bmp?size=50x50&set=set1', 'quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('5', 'Jonathan', 'Foster', 'jfoster4@domainmarket.com', 'Male', 'https://robohash.org/delectusvitaepariatur.png?size=50x50&set=set1', 'lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('6', 'David', 'Marshall', 'dmarshall5@phoca.cz', 'Male', 'https://robohash.org/iurequilaborum.jpg?size=50x50&set=set1', 'non pretium quis lectus suspendisse potenti in eleifend quam a odio in');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('7', 'James', 'West', 'jwest6@live.com', 'Male', 'https://robohash.org/autveroanimi.png?size=50x50&set=set1', 'congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('8', 'Jesse', 'Allen', 'jallen7@miitbeian.gov.cn', 'Male', 'https://robohash.org/maximenihilsit.png?size=50x50&set=set1', 'ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('9', 'Ralph', 'Morales', 'rmorales8@rakuten.co.jp', 'Male', 'https://robohash.org/voluptatumperspiciatisducimus.png?size=50x50&set=set1', 'urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('10', 'Angela', 'Garza', 'agarza9@ucsd.edu', 'Female', 'https://robohash.org/suntquitotam.png?size=50x50&set=set1', 'etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('11', 'Katherine', 'Alvarez', 'kalvareza@example.com', 'Female', 'https://robohash.org/autharumomnis.jpg?size=50x50&set=set1', 'sit amet eros suspendisse accumsan tortor quis turpis sed ante');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('12', 'Jacqueline', 'Hunt', 'jhuntb@bigcartel.com', 'Female', 'https://robohash.org/animierroraut.jpg?size=50x50&set=set1', 'in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('13', 'Jean', 'Hamilton', 'jhamiltonc@topsy.com', 'Female', 'https://robohash.org/voluptatumsapienteea.bmp?size=50x50&set=set1', 'felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('14', 'Richard', 'Ortiz', 'rortizd@ovh.net', 'Male', 'https://robohash.org/hiceosfugit.bmp?size=50x50&set=set1', 'eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('15', 'Lois', 'Jacobs', 'ljacobse@prlog.org', 'Female', 'https://robohash.org/dignissimosetaut.jpg?size=50x50&set=set1', 'id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('16', 'Richard', 'Torres', 'rtorresf@xing.com', 'Male', 'https://robohash.org/etquidemnisi.png?size=50x50&set=set1', 'semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('17', 'Raymond', 'Kennedy', 'rkennedyg@columbia.edu', 'Male', 'https://robohash.org/eavoluptatemrecusandae.bmp?size=50x50&set=set1', 'in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('18', 'Brandon', 'Holmes', 'bholmesh@gov.uk', 'Male', 'https://robohash.org/etasperioresminima.png?size=50x50&set=set1', 'id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('19', 'Billy', 'Sullivan', 'bsullivani@chronoengine.com', 'Male', 'https://robohash.org/atquequodsed.jpg?size=50x50&set=set1', 'magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('20', 'Arthur', 'Peterson', 'apetersonj@ft.com', 'Male', 'https://robohash.org/modifugiatodit.png?size=50x50&set=set1', 'ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('21', 'George', 'Vasquez', 'gvasquezk@1688.com', 'Male', 'https://robohash.org/rerumvelitquam.png?size=50x50&set=set1', 'rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('22', 'Douglas', 'Collins', 'dcollinsl@printfriendly.com', 'Male', 'https://robohash.org/deseruntautminima.png?size=50x50&set=set1', 'diam id ornare imperdiet sapien urna pretium nisl ut volutpat');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('23', 'Bobby', 'West', 'bwestm@blogger.com', 'Male', 'https://robohash.org/nullaearumest.bmp?size=50x50&set=set1', 'scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('24', 'Alan', 'Roberts', 'arobertsn@bluehost.com', 'Male', 'https://robohash.org/quasenimquia.bmp?size=50x50&set=set1', 'lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('25', 'Laura', 'Fields', 'lfieldso@spotify.com', 'Female', 'https://robohash.org/etquaelaudantium.bmp?size=50x50&set=set1', 'vestibulum ante ipsum primis in faucibus orci luctus et ultrices');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('26', 'Lisa', 'Smith', 'lsmithp@skype.com', 'Female', 'https://robohash.org/etnobisomnis.bmp?size=50x50&set=set1', 'quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('27', 'Adam', 'Nguyen', 'anguyenq@merriam-webster.com', 'Male', 'https://robohash.org/quaesimiliquererum.jpg?size=50x50&set=set1', 'turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('28', 'Dorothy', 'Reed', 'dreedr@cbsnews.com', 'Female', 'https://robohash.org/sitofficiaearum.jpg?size=50x50&set=set1', 'vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('29', 'Helen', 'Jackson', 'hjacksons@t-online.de', 'Female', 'https://robohash.org/dignissimosvelblanditiis.jpg?size=50x50&set=set1', 'eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('30', 'Deborah', 'Reyes', 'dreyest@sun.com', 'Female', 'https://robohash.org/numquamquiodit.png?size=50x50&set=set1', 'natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('31', 'Katherine', 'Mason', 'kmasonu@devhub.com', 'Female', 'https://robohash.org/namvoluptatemmodi.jpg?size=50x50&set=set1', 'placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('32', 'Christopher', 'Tucker', 'ctuckerv@360.cn', 'Male', 'https://robohash.org/quisconsequaturpraesentium.bmp?size=50x50&set=set1', 'pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('33', 'Jack', 'Lewis', 'jlewisw@state.tx.us', 'Male', 'https://robohash.org/magnievenietipsa.jpg?size=50x50&set=set1', 'tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('34', 'Jeffrey', 'Lawson', 'jlawsonx@foxnews.com', 'Male', 'https://robohash.org/idquiautem.bmp?size=50x50&set=set1', 'est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('35', 'Julie', 'Long', 'jlongy@umich.edu', 'Female', 'https://robohash.org/inciduntquoet.jpg?size=50x50&set=set1', 'elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('36', 'Edward', 'Flores', 'efloresz@sfgate.com', 'Male', 'https://robohash.org/ullamplaceatenim.bmp?size=50x50&set=set1', 'commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('37', 'Christina', 'Evans', 'cevans10@networkadvertising.org', 'Female', 'https://robohash.org/enimimpeditassumenda.png?size=50x50&set=set1', 'orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('38', 'Katherine', 'Foster', 'kfoster11@gnu.org', 'Female', 'https://robohash.org/quaeratnamdeserunt.png?size=50x50&set=set1', 'pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('39', 'Pamela', 'Ramirez', 'pramirez12@imageshack.us', 'Female', 'https://robohash.org/vitaeconsequaturconsequatur.jpg?size=50x50&set=set1', 'consequat ut nulla sed accumsan felis ut at dolor quis odio consequat');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('40', 'Scott', 'Porter', 'sporter13@blog.com', 'Male', 'https://robohash.org/distinctiopariaturomnis.png?size=50x50&set=set1', 'rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('41', 'Ruth', 'Carroll', 'rcarroll14@spotify.com', 'Female', 'https://robohash.org/perspiciatisdignissimosautem.jpg?size=50x50&set=set1', 'ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('42', 'Clarence', 'Lopez', 'clopez15@utexas.edu', 'Male', 'https://robohash.org/quaeratquocommodi.png?size=50x50&set=set1', 'sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('43', 'Scott', 'Hunter', 'shunter16@csmonitor.com', 'Male', 'https://robohash.org/dolortotamet.bmp?size=50x50&set=set1', 'nunc proin at turpis a pede posuere nonummy integer non velit donec');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('44', 'Gregory', 'Simpson', 'gsimpson17@yelp.com', 'Male', 'https://robohash.org/eossintomnis.jpg?size=50x50&set=set1', 'laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('45', 'Earl', 'Porter', 'eporter18@go.com', 'Male', 'https://robohash.org/quonemotempora.jpg?size=50x50&set=set1', 'ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('46', 'Janice', 'Ross', 'jross19@sohu.com', 'Female', 'https://robohash.org/repellatmolestiaeassumenda.bmp?size=50x50&set=set1', 'sed magna at nunc commodo placerat praesent blandit nam nulla');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('47', 'Alan', 'Gordon', 'agordon1a@parallels.com', 'Male', 'https://robohash.org/placeathicvoluptatibus.png?size=50x50&set=set1', 'nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('48', 'Rachel', 'Williamson', 'rwilliamson1b@dell.com', 'Female', 'https://robohash.org/quasisunttotam.png?size=50x50&set=set1', 'lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('49', 'Walter', 'Phillips', 'wphillips1c@tamu.edu', 'Male', 'https://robohash.org/minusdoloremqueratione.png?size=50x50&set=set1', 'morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('50', 'Nancy', 'Nelson', 'nnelson1d@princeton.edu', 'Female', 'https://robohash.org/assumendamolestiasest.png?size=50x50&set=set1', 'vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('51', 'Jeffrey', 'Rose', 'jrose1e@cargocollective.com', 'Male', 'https://robohash.org/perspiciatismolestiaeet.bmp?size=50x50&set=set1', 'sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('52', 'Evelyn', 'Gilbert', 'egilbert1f@biblegateway.com', 'Female', 'https://robohash.org/beataequisquamasperiores.bmp?size=50x50&set=set1', 'posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('53', 'Catherine', 'Murray', 'cmurray1g@sitemeter.com', 'Female', 'https://robohash.org/doloremdelectusnatus.jpg?size=50x50&set=set1', 'in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('54', 'Pamela', 'Kelly', 'pkelly1h@spiegel.de', 'Female', 'https://robohash.org/temporequosdolore.png?size=50x50&set=set1', 'cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('55', 'Edward', 'Hicks', 'ehicks1i@opera.com', 'Male', 'https://robohash.org/quisquamteneturest.png?size=50x50&set=set1', 'lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('56', 'William', 'Fisher', 'wfisher1j@nps.gov', 'Male', 'https://robohash.org/aperiamquoid.jpg?size=50x50&set=set1', 'ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('57', 'Pamela', 'Hudson', 'phudson1k@buzzfeed.com', 'Female', 'https://robohash.org/quibusdamdoloremad.jpg?size=50x50&set=set1', 'sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('58', 'Carol', 'Mcdonald', 'cmcdonald1l@meetup.com', 'Female', 'https://robohash.org/temporibuseaet.bmp?size=50x50&set=set1', 'augue a suscipit nulla elit ac nulla sed vel enim sit amet');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('59', 'Jane', 'Russell', 'jrussell1m@eepurl.com', 'Female', 'https://robohash.org/teneturnumquamtempore.jpg?size=50x50&set=set1', 'sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('60', 'Annie', 'Tucker', 'atucker1n@netscape.com', 'Female', 'https://robohash.org/earumipsamalias.bmp?size=50x50&set=set1', 'non mauris morbi non lectus aliquam sit amet diam in magna');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('61', 'Phyllis', 'Wells', 'pwells1o@mail.ru', 'Female', 'https://robohash.org/eaquibusdamsaepe.bmp?size=50x50&set=set1', 'id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('62', 'Susan', 'Elliott', 'selliott1p@symantec.com', 'Female', 'https://robohash.org/etrecusandaeoptio.jpg?size=50x50&set=set1', 'pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('63', 'Teresa', 'Harper', 'tharper1q@dedecms.com', 'Female', 'https://robohash.org/accusamuscupiditaterepudiandae.bmp?size=50x50&set=set1', 'duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('64', 'Jesse', 'Flores', 'jflores1r@163.com', 'Male', 'https://robohash.org/quasfacilisquis.jpg?size=50x50&set=set1', 'rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('65', 'George', 'Carter', 'gcarter1s@liveinternet.ru', 'Male', 'https://robohash.org/sintundeveritatis.jpg?size=50x50&set=set1', 'amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('66', 'Justin', 'Richardson', 'jrichardson1t@issuu.com', 'Male', 'https://robohash.org/utnostrumveritatis.png?size=50x50&set=set1', 'sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('67', 'Joshua', 'Kennedy', 'jkennedy1u@prweb.com', 'Male', 'https://robohash.org/vitaedelectusaut.bmp?size=50x50&set=set1', 'erat eros viverra eget congue eget semper rutrum nulla nunc');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('68', 'Louise', 'Brown', 'lbrown1v@umn.edu', 'Female', 'https://robohash.org/totamnecessitatibusquia.bmp?size=50x50&set=set1', 'venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('69', 'Arthur', 'Sanders', 'asanders1w@infoseek.co.jp', 'Male', 'https://robohash.org/suntidexercitationem.png?size=50x50&set=set1', 'mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor eu');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('70', 'Brandon', 'Mills', 'bmills1x@hhs.gov', 'Male', 'https://robohash.org/excepturiquienim.png?size=50x50&set=set1', 'morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('71', 'Rachel', 'Elliott', 'relliott1y@t-online.de', 'Female', 'https://robohash.org/errorfugitet.jpg?size=50x50&set=set1', 'non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('72', 'Maria', 'Woods', 'mwoods1z@goo.gl', 'Female', 'https://robohash.org/voluptatesquiaeum.bmp?size=50x50&set=set1', 'consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('73', 'John', 'Brooks', 'jbrooks20@artisteer.com', 'Male', 'https://robohash.org/quiasimiliqueprovident.jpg?size=50x50&set=set1', 'ac leo pellentesque ultrices mattis odio donec vitae nisi nam');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('74', 'Barbara', 'Carr', 'bcarr21@hexun.com', 'Female', 'https://robohash.org/laboriosamestmolestiae.jpg?size=50x50&set=set1', 'potenti cras in purus eu magna vulputate luctus cum sociis');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('75', 'Scott', 'Woods', 'swoods22@cornell.edu', 'Male', 'https://robohash.org/quiscorporismolestiae.png?size=50x50&set=set1', 'massa donec dapibus duis at velit eu est congue elementum in hac habitasse');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('76', 'Kenneth', 'Kelley', 'kkelley23@webmd.com', 'Male', 'https://robohash.org/officiisutmolestiae.jpg?size=50x50&set=set1', 'nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('77', 'Ronald', 'Burton', 'rburton24@smh.com.au', 'Male', 'https://robohash.org/idsunteos.bmp?size=50x50&set=set1', 'eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('78', 'Mark', 'Reed', 'mreed25@examiner.com', 'Male', 'https://robohash.org/rerumpariaturin.jpg?size=50x50&set=set1', 'ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('79', 'Beverly', 'Coleman', 'bcoleman26@dmoz.org', 'Female', 'https://robohash.org/eosrerumeos.jpg?size=50x50&set=set1', 'pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('80', 'Lawrence', 'Lewis', 'llewis27@diigo.com', 'Male', 'https://robohash.org/recusandaetemporeexcepturi.png?size=50x50&set=set1', 'pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('81', 'Gloria', 'Richards', 'grichards28@biblegateway.com', 'Female', 'https://robohash.org/porroofficiisest.png?size=50x50&set=set1', 'lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('82', 'John', 'Freeman', 'jfreeman29@businessinsider.com', 'Male', 'https://robohash.org/reprehenderitsimiliqueiure.jpg?size=50x50&set=set1', 'duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('83', 'Laura', 'Roberts', 'lroberts2a@skype.com', 'Female', 'https://robohash.org/explicabofugaminima.bmp?size=50x50&set=set1', 'amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('84', 'Billy', 'Weaver', 'bweaver2b@ebay.com', 'Male', 'https://robohash.org/blanditiisvoluptatemnobis.jpg?size=50x50&set=set1', 'sapien a libero nam dui proin leo odio porttitor id consequat in');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('85', 'Helen', 'Dean', 'hdean2c@chronoengine.com', 'Female', 'https://robohash.org/molestiaeetreiciendis.png?size=50x50&set=set1', 'justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('86', 'Roger', 'Morrison', 'rmorrison2d@gnu.org', 'Male', 'https://robohash.org/quofugiatvoluptatum.jpg?size=50x50&set=set1', 'amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('87', 'Diana', 'Bell', 'dbell2e@shop-pro.jp', 'Female', 'https://robohash.org/rerumofficiisnon.bmp?size=50x50&set=set1', 'vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('88', 'Craig', 'Fowler', 'cfowler2f@freewebs.com', 'Male', 'https://robohash.org/fugaetmagni.png?size=50x50&set=set1', 'id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('89', 'Jeremy', 'Carter', 'jcarter2g@shareasale.com', 'Male', 'https://robohash.org/ducimusperferendisminus.bmp?size=50x50&set=set1', 'ut nunc vestibulum ante ipsum primis in faucibus orci luctus');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('90', 'Harry', 'Hamilton', 'hhamilton2h@typepad.com', 'Male', 'https://robohash.org/nobisquibusdamlaudantium.png?size=50x50&set=set1', 'suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('91', 'Jeremy', 'Gomez', 'jgomez2i@zdnet.com', 'Male', 'https://robohash.org/porroeaqueipsum.bmp?size=50x50&set=set1', 'praesent blandit lacinia erat vestibulum sed magna at nunc commodo');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('92', 'Bonnie', 'Rogers', 'brogers2j@cbsnews.com', 'Female', 'https://robohash.org/voluptatesetaperiam.png?size=50x50&set=set1', 'sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('93', 'Ronald', 'Ward', 'rward2k@unesco.org', 'Male', 'https://robohash.org/occaecativoluptatibuserror.jpg?size=50x50&set=set1', 'pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('94', 'John', 'Tucker', 'jtucker2l@indiatimes.com', 'Male', 'https://robohash.org/dignissimosdelectusatque.png?size=50x50&set=set1', 'ut nulla sed accumsan felis ut at dolor quis odio consequat');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('95', 'Martha', 'Murray', 'mmurray2m@shop-pro.jp', 'Female', 'https://robohash.org/autrationedolores.png?size=50x50&set=set1', 'nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('96', 'James', 'Baker', 'jbaker2n@gizmodo.com', 'Male', 'https://robohash.org/sequisintvelit.bmp?size=50x50&set=set1', 'proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('97', 'Julia', 'Carroll', 'jcarroll2o@google.ru', 'Female', 'https://robohash.org/placeatnontenetur.jpg?size=50x50&set=set1', 'est risus auctor sed tristique in tempus sit amet sem fusce consequat');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('98', 'Amanda', 'Parker', 'aparker2p@cam.ac.uk', 'Female', 'https://robohash.org/vitaeutnihil.bmp?size=50x50&set=set1', 'pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('99', 'Tammy', 'Schmidt', 'tschmidt2q@npr.org', 'Female', 'https://robohash.org/nihilbeataeipsum.jpg?size=50x50&set=set1', 'nisl aenean lectus pellentesque eget nunc donec quis orci eget');
+INSERT INTO osobe (id, ime, prezime, email, spol, slika, zivotopis)
+VALUES ('100', 'Patrick', 'Lawson', 'plawson2r@sakura.ne.jp', 'Male', 'https://robohash.org/sedconsequaturquidem.png?size=50x50&set=set1', 'nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor eu');

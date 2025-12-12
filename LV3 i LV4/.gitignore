@@ -1,0 +1,51 @@
+/vendor/
+/node_modules/
+
+# Laravel environment files
+.env
+.env.*
+!.env.example
+
+# Laravel cache & logs
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/testing
+/storage/logs
+
+# Laravel compiled files
+/bootstrap/cache/*.php
+/public/hot
+/public/storage
+
+# Vite build output
+/public/build/
+
+/public/mix-manifest.json
+
+# Compiled views
+/storage/framework/views/*.php
+
+# SQLite database (preporuka da se NE commit-a)
+database/database.sqlite
+
+# IDE / editor
+/.idea
+/.vscode
+*.code-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# NPM debug logs
+npm-debug.log
+yarn-error.log
+
+# Composer vendor backup
+composer.lock.bak
+
+# Misc
+*.swp
+*.swo
