@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th, td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+      }
+      th {
+        background-color: #2196F3;
+        color: white;
+      }
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin: 2px;
+        text-decoration: none;
+        color: white;
+        border-radius: 4px;
+      }
+      .btn-info {
+        background-color: #2196F3;
+      }
+      .btn-warning {
+        background-color: #ff9800;
+      }
+      .btn:hover {
+        opacity: 0.8;
+      }
+      .navbar {
+        background-color: #333;
+        overflow: hidden;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+      }
+      .navbar a {
+        float: left;
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+        margin-right: 10px;
+      }
+      .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .navbar-right {
+        float: right;
+      }
+      .user-info {
+        color: white;
+        float: right;
+        padding: 8px 16px;
+      }
+      .info-message {
+        background-color: #fff3cd;
+        border-left: 4px solid #ff9800;
+        padding: 15px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="/projects">Svi projekti</a>
+      <% if (user) { %>
+        <a href="/projects/my/managed">Moji projekti (voditelj)</a>
+        <a href="/projects/my/member">Moji projekti (član)</a>
+        <span class="user-info">Prijavljeni ste kao: <strong><%= user.username %></strong></span>
+        <a href="/users/logout" class="navbar-right">Odjava</a>
+      <% } else { %>
+        <a href="/users/login" class="navbar-right">Prijava</a>
+        <a href="/users/register" class="navbar-right">Registracija</a>
+      <% } %>
+    </div>
+    
+    <h1><%= title %></h1>
+    
+    <div class="info-message">
+      Na ovim projektima ste član tima. Možete ažurirati samo obavljene poslove.
+    </div>
+
+    <% if (projects.length === 0) { %>
+      <p>Niste član ni jednog projekta.</p>
+    <% } else { %>
+      <table>
+        <thead>
+          <tr>
+            <th>Naziv</th>
+            <th>Opis</th>
+            <th>Cijena (EUR)</th>
+            <th>Obavljeni poslovi</th>
+            <th>Datum početka</th>
+            <th>Datum završetka</th>
+            <th>Status</th>
+            <th>Akcije</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% projects.forEach(function(project) { %>
+            <tr<% if (project.arhiviran) { %> style="opacity: 0.6; background-color: #e0e0e0;"<% } %>>
+              <td><%= project.naziv %></td>
+              <td><%= project.opis %></td>
+              <td><%= project.cijena.toFixed(2) %></td>
+              <td><%= project.obavljeniPoslovi %></td>
+              <td><%= project.datumPocetka %></td>
+              <td><%= project.datumZavrsetka %></td>
+              <td>
+                <% if (project.arhiviran) { %>
+                  <span style="color: #999;">Arhiviran</span>
+                <% } else { %>
+                  <span style="color: #4CAF50;">Aktivan</span>
+                <% } %>
+              </td>
+              <td>
+                <a href="/projects/<%= project.id %>" class="btn btn-info">Detalji</a>
+                <a href="/projects/<%= project.id %>/edit-work" class="btn btn-warning">Uredi poslove</a>
+              </td>
+            </tr>
+          <% }); %>
+        </tbody>
+      </table>
+    <% } %>
+  </body>
+</html>

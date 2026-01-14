@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+      .details-container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+      }
+      .detail-row {
+        margin-bottom: 15px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 4px;
+      }
+      .detail-label {
+        font-weight: bold;
+        color: #333;
+        display: inline-block;
+        width: 180px;
+      }
+      .detail-value {
+        color: #555;
+      }
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 5px;
+        text-decoration: none;
+        color: white;
+        border-radius: 4px;
+      }
+      .btn-primary {
+        background-color: #4CAF50;
+      }
+      .btn-info {
+        background-color: #2196F3;
+      }
+      .btn-danger {
+        background-color: #f44336;
+      }
+      .btn-secondary {
+        background-color: #6c757d;
+      }
+      .btn:hover {
+        opacity: 0.8;
+      }
+      .navbar {
+        background-color: #333;
+        overflow: hidden;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+      }
+      .navbar a {
+        float: left;
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+        margin-right: 10px;
+      }
+      .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .navbar-right {
+        float: right;
+      }
+      .user-info {
+        color: white;
+        float: right;
+        padding: 8px 16px;
+      }
+      .actions {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 2px solid #ddd;
+      }
+      .members-section {
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+      }
+      .members-section h2 {
+        margin-top: 0;
+        color: #333;
+      }
+      .member-list {
+        list-style: none;
+        padding: 0;
+      }
+      .member-item {
+        padding: 10px;
+        margin: 10px 0;
+        background-color: #f0f0f0;
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .member-info {
+        flex-grow: 1;
+      }
+      .member-name {
+        font-weight: bold;
+        color: #333;
+      }
+      .member-role {
+        color: #666;
+        font-size: 0.9em;
+      }
+      .add-member-form {
+        margin-top: 20px;
+        padding: 15px;
+        background-color: #f5f5f5;
+        border-radius: 4px;
+      }
+      .form-group {
+        margin-bottom: 10px;
+      }
+      .form-group label {
+        display: inline-block;
+        width: 120px;
+        font-weight: bold;
+      }
+      .form-group input,
+      .form-group select {
+        width: 300px;
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+      .btn-small {
+        padding: 5px 10px;
+        font-size: 0.9em;
+      }
+      .navbar {
+        background-color: #333;
+        overflow: hidden;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+      }
+      .navbar a {
+        float: left;
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+        margin-right: 10px;
+      }
+      .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .navbar-right {
+        float: right;
+      }
+      .user-info {
+        color: white;
+        float: right;
+        padding: 8px 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="/projects">Svi projekti</a>
+      <% if (user) { %>
+        <a href="/projects/my/managed">Moji projekti (voditelj)</a>
+        <a href="/projects/my/member">Moji projekti (član)</a>
+        <a href="/projects/archive">Arhiva</a>
+        <span class="user-info">Prijavljeni ste kao: <strong><%= user.username %></strong></span>
+        <a href="/users/logout" class="navbar-right">Odjava</a>
+      <% } else { %>
+        <a href="/users/login" class="navbar-right">Prijava</a>
+        <a href="/users/register" class="navbar-right">Registracija</a>
+      <% } %>
+    </div>
+    
+    <h1><%= title %></h1>
+    
+    <div class="details-container">
+      <div class="detail-row">
+        <span class="detail-label">Naziv projekta:</span>
+        <span class="detail-value"><%= project.naziv %></span>
+      </div>
+      
+      <div class="detail-row">
+        <span class="detail-label">Opis projekta:</span>
+        <span class="detail-value"><%= project.opis %></span>
+      </div>
+      
+      <div class="detail-row">
+        <span class="detail-label">Cijena projekta:</span>
+        <span class="detail-value"><%= project.cijena.toFixed(2) %> EUR</span>
+      </div>
+      
+      <div class="detail-row">
+        <span class="detail-label">Obavljeni poslovi:</span>
+        <span class="detail-value"><%= project.obavljeniPoslovi %></span>
+      </div>
+      
+      <div class="detail-row">
+        <span class="detail-label">Datum početka:</span>
+        <span class="detail-value"><%= project.datumPocetka %></span>
+      </div>
+      
+      <div class="detail-row">
+        <span class="detail-label">Datum završetka:</span>
+        <span class="detail-value"><%= project.datumZavrsetka %></span>
+      </div>
+      
+      <div class="detail-row">
+        <span class="detail-label">Status projekta:</span>
+        <span class="detail-value">
+          <% if (project.arhiviran) { %>
+            <strong style="color: #999;">Arhiviran</strong>
+          <% } else { %>
+            <strong style="color: #4CAF50;">Aktivan</strong>
+          <% } %>
+        </span>
+      </div>
+
+      <div class="members-section">
+        <h2>Članovi tima</h2>
+        
+        <% if (members && members.length > 0) { %>
+          <ul class="member-list">
+            <% members.forEach(function(clan) { %>
+              <li class="member-item">
+                <div class="member-info">
+                  <div class="member-name"><%= clan.username %> (<%= clan.email %>)</div>
+                  <div class="member-role"><%= clan.uloga %></div>
+                </div>
+                <% if (user && project.voditeljId === user.id) { %>
+                  <a href="/projects/<%= project.id %>/members/<%= clan.userId %>/delete" 
+                     class="btn btn-danger btn-small" 
+                     onclick="return confirm('Jeste li sigurni da želite ukloniti člana tima?')">Ukloni</a>
+                <% } %>
+              </li>
+            <% }); %>
+          </ul>
+        <% } else { %>
+          <p>Nema članova tima.</p>
+        <% } %>
+
+        <% if (user && project.voditeljId === user.id) { %>
+          <% if (availableUsers && availableUsers.length > 0) { %>
+            <div class="add-member-form">
+              <h3>Dodaj novog člana tima</h3>
+              <form action="/projects/<%= project.id %>/members" method="POST">
+                <div class="form-group">
+                  <label for="userId">Odaberi korisnika:</label>
+                  <select id="userId" name="userId" required>
+                    <option value="">-- Odaberi korisnika --</option>
+                    <% availableUsers.forEach(function(user) { %>
+                      <option value="<%= user.id %>"><%= user.username %> (<%= user.email %>)</option>
+                    <% }); %>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="uloga">Uloga u timu:</label>
+                  <input type="text" id="uloga" name="uloga" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Dodaj člana</button>
+              </form>
+            </div>
+          <% } else { %>
+            <div class="add-member-form">
+              <p style="color: #999;">Nema dostupnih korisnika za dodavanje. Svi registrirani korisnici su već članovi ovog projekta ili nema registriranih korisnika.</p>
+            </div>
+          <% } %>
+        <% } %>
+      </div>
+
+      <div class="actions">
+        <% if (user && project.voditeljId === user.id) { %>
+          <a href="/projects/<%= project.id %>/edit" class="btn btn-info">Uredi projekt</a>
+          <a href="/projects/<%= project.id %>/toggle-archive" class="btn btn-secondary">
+            <% if (project.arhiviran) { %>
+              Dearhiviraj projekt
+            <% } else { %>
+              Arhiviraj projekt
+            <% } %>
+          </a>
+          <a href="/projects/<%= project.id %>/delete" class="btn btn-danger" onclick="return confirm('Jeste li sigurni da želite obrisati ovaj projekt?')">Obriši projekt</a>
+        <% } %>
+        <a href="/projects" class="btn btn-secondary">Povratak na popis</a>
+      </div>
+    </div>
+  </body>
+</html>
